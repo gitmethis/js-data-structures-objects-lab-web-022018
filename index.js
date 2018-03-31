@@ -13,6 +13,6 @@ function destructivelyUpdateDriverWithKeyAndValue(driver, key, value){
 
 function deleteFromDriverByKey(driver, key){
   obj = driver.slice(0) // CLONE THE OBJ
-  delete obj.key
+  delete obj[key]
   return obj
 }
