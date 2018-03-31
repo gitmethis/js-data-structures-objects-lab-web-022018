@@ -18,4 +18,4 @@ function deleteFromDriverByKey(driver, key){
 }
 
 
-function 
+function return Object.assign({},driver_obj, {[key]:value})
