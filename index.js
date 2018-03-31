@@ -12,7 +12,7 @@ function destructivelyUpdateDriverWithKeyAndValue(driver, key, value){
 
 
 function deleteFromDriverByKey(driver, key){
-  objuu = driver.slice(0) // CLONE THE OBJ
+  Obj
   delete objuu.key
   
 }
